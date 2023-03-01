@@ -12,9 +12,42 @@
 </head>
 <body background="http://drive.google.com/uc?export=view&id=11-qTU_0udG0mukdwuKq8-tpoODQ8u_Dw">
 	<h1 style="border-bottom: solid black; padding: 10px;" align="center">Mathematics</h1>
-	<script language="JavaScript">
-		document.fgColor=prompt("Input font color","")
-	</script>
+<center>
+<input type="text" id="inp">
+<br>
+<button onclick="pressed()">Click here</button>
+</center>
+
+<script language="JavaScript">
+function pressed(){
+var color =
+document.getElementById("inp").value;
+switch (color){
+case "red":
+document.getElementById("ez").style.color = "red";
+break;
+case "blue":
+document.getElementById("ez").style.color = "blue";
+break;
+case "gray":
+document.getElementById("ez").style.color = "gray";
+break;
+case "brown":
+document.getElementById("ez").style.color = "brown";
+break;
+case "green":
+document.getElementById("ez").style.color = "green";
+break;
+case "yellow":
+document.getElementById("ez").style.color = "yellow";
+break;
+default:
+document.getElementById("ez").style.color = "black";
+break;
+}
+}
+</script>
+<div id="ez">
 	<h3 align="center">1st GRADING Outputs</h3>
 	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
 	<img src="http://drive.google.com/uc?export=view&id=1l5y2XIqaR3hV_4dwJ1BYU0LJ4iH8i5i9">
@@ -37,5 +70,17 @@
     <p>Quadratic Formula</p>
     <p>Determining a Quadratic</p>
     </div>
+    <h3 align="center">3rd GRADING Outputs</h3>
+	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
+	<img src="http://drive.google.com/uc?export=view&id=1EFulPuC6IvWliWQ8smRQRN7nSb-hJjfv">
+	<img src="http://drive.google.com/uc?export=view&id=1XQHc-kJm5NhIHBImAoo66k4UTtB6aScu">
+	<img src="http://drive.google.com/uc?export=view&id=1UnNifde89UTFlNveYDjUygUWZb3VwszL">
+    </div>
+    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
+    <p>Representing a quadratic function using by graphing.</p>
+    <p>Transforming quadratic function into the form y=a(x-h)^2+k</p>
+    <p>Equations in quadratic forms</p>
+    </div>
+</div>
 </body>
 </html>
