@@ -12,9 +12,42 @@
 </head>
 <body background="http://drive.google.com/uc?export=view&id=13QKp-BKgnW--ExdTWNQfeqGGLdahWN63">
 	<h1 style="border-bottom: solid black; padding: 10px;" align="center">Science</h1>
-	<script language="JavaScript">
-		document.fgColor=prompt("Input font color","")
-	</script>
+<center>
+<input type="text" id="inp">
+<br>
+<button onclick="pressed()">Click here</button>
+</center>
+
+<script language="JavaScript">
+function pressed(){
+var color =
+document.getElementById("inp").value;
+switch (color){
+case "red":
+document.getElementById("ez").style.color = "red";
+break;
+case "blue":
+document.getElementById("ez").style.color = "blue";
+break;
+case "gray":
+document.getElementById("ez").style.color = "gray";
+break;
+case "brown":
+document.getElementById("ez").style.color = "brown";
+break;
+case "green":
+document.getElementById("ez").style.color = "green";
+break;
+case "yellow":
+document.getElementById("ez").style.color = "yellow";
+break;
+default:
+document.getElementById("ez").style.color = "black";
+break;
+}
+}
+</script>
+<div id="ez">
 	<h3 align="center">1st GRADING Outputs</h3>
 	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
 	<img src="http://drive.google.com/uc?export=view&id=1zNR4LuRszHqIgkVF0GOll4BOUS-5kIgs">
@@ -37,5 +70,17 @@
     <p>Enumerate the properties and allotropes of carbon</p>
     <p>Explaining the different ways of finding the amount of the element</p>
     </div>
+    <h3 align="center">3rd GRADING Outputs</h3>
+	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
+	<img src="http://drive.google.com/uc?export=view&id=1NJa-uogbxo7uIFmcf8uuJHfYHH96S2FA">
+	<img src="http://drive.google.com/uc?export=view&id=1Sce8LI45N8vTr4I6JvlnBB4vepe-bFZw">
+	<img src="http://drive.google.com/uc?export=view&id=1RzO1urVbkpjGepmjgeQiB7jdFizgX9do">
+    </div>
+    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
+    <p>My groupmates and I created this output that represents the twinkling stars that we see in the night.</p>
+    <p>My groupmates and I created this output that represents the constellations that stars form.</p>
+    <p>Making a brochure about climate change.</p>
+    </div>
+</div>
 </body>
 </html>
