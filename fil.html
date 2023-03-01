@@ -12,9 +12,42 @@
 </head>
 <body background="http://drive.google.com/uc?export=view&id=1gtE4Lc-cvctIcmmyEv0-pi_GGMK6xshg">
 	<h1 style="border-bottom: solid black; padding: 10px;" align="center">Filipino</h1>
-	<script language="JavaScript">
-		document.fgColor=prompt("Input font color","")
-	</script>
+<center>
+<input type="text" id="inp">
+<br>
+<button onclick="pressed()">Click here</button>
+</center>
+
+<script language="JavaScript">
+function pressed(){
+var color =
+document.getElementById("inp").value;
+switch (color){
+case "red":
+document.getElementById("ez").style.color = "red";
+break;
+case "blue":
+document.getElementById("ez").style.color = "blue";
+break;
+case "gray":
+document.getElementById("ez").style.color = "gray";
+break;
+case "brown":
+document.getElementById("ez").style.color = "brown";
+break;
+case "green":
+document.getElementById("ez").style.color = "green";
+break;
+case "yellow":
+document.getElementById("ez").style.color = "yellow";
+break;
+default:
+document.getElementById("ez").style.color = "black";
+break;
+}
+}
+</script>
+<div id="ez">
 	<h3 align="center">1st GRADING Outputs</h3>
 	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
 	<img src="http://drive.google.com/uc?export=view&id=1DCXml72diESUxz2hSG3tKec5koC2NN-J">
@@ -37,5 +70,17 @@
     <p>Pagsusuri ng Tanka at Haiku.</p>
     <p>Sa gawaing ito inatasan akong gumawa ng Kuwento.</p>
     </div>
+    <h3 align="center">3rd GRADING Outputs</h3>
+	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
+	<img src="http://drive.google.com/uc?export=view&id=12wRNOzJWjWJZWOXTwQ-w0RL7TRet2c5a">
+	<img src="http://drive.google.com/uc?export=view&id=1usHlofeBs3PT6v9Wf80N_xtM1H0mtBtm">
+	<img src="http://drive.google.com/uc?export=view&id=1y-0mjuFunZwu7bz3V7ngArKixZXF_uLy"	>
+    </div>
+    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
+    <p>Pagdudugtong sa mga sumusunod na pahayag.</p>
+    <p>Paraan na aking gagawin upang maipadama ko ang aking pagmamahal sa isang tao.	</p>
+    <p>Maikling pagsubok tungkol sa pagpapasidhi ng damdamin</p>
+    </div>
+</div>
 </body>
 </html>
