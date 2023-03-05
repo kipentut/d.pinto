@@ -11,7 +11,7 @@
 	<title>Mathematics</title>
 </head>
 <body background="http://drive.google.com/uc?export=view&id=11-qTU_0udG0mukdwuKq8-tpoODQ8u_Dw">
-	<h1 style="border-bottom: solid black; padding: 10px;" align="center">Mathematics</h1>
+	<h1 id="header" style="border-bottom: solid black; padding: 10px;" align="center">Mathematics</h1>
 <center>
 <input type="text" id="inp">
 <br>
@@ -19,6 +19,7 @@
 </center>
 
 <script language="JavaScript">
+	document.getElementById("header").style.color = prompt("Input font color for header","");
 function pressed(){
 var color =
 document.getElementById("inp").value;
