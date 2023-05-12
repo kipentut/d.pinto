@@ -1,87 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		body{background-repeat: no-repeat;background-size: cover;}
-		h3{margin-right: 500px; margin-left: 500px;border: solid black; padding: 10px; background-color: #f6b89e;border-radius: 25px 25px 25px 25px;}
-		img{width: 275px; height: 275px; border: solid black; padding: 3px; border-radius: 8px 8px 8px 8px;}
-		p{width: 275px; border: solid black; padding: 3px; border-radius: 8px 8px 8px 8px; background-color: whitesmoke;}
-		*{font-family: arial;}
+	<style>
+		body {
+			background: #BEAEE2;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			margin: 0;
+			padding: 20px;
+			text-align: center;
+			background: #F7DBF0;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+			border: solid transparent;
+			border-radius: 0px 0px 5px 5px;
+		}
+		h3 {
+			margin: 40px 0 20px;
+			text-align: center;
+			font-size: 24px;
+			font-weight: normal;
+		}
+		p {
+			margin: 0;
+			padding: 20px;
+			background: #F7DBF0;
+			border: solid transparent;
+			border-radius: 5px 5px 5px 5px;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+			text-align: center;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			padding: 10px;
+			border: solid transparent;
+			border-radius: 5px;
+			background-color: #F7DBF0;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		}
+		.container{
+			width: 1000px;
+			margin: 0 auto;
+			padding: 2rem;
+			background-color: #F7DBF0;
+			border-radius: 10px 10px 10px 10px;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		}
 	</style>
-	<title>Araling Panlipunan</title>
+<head>
+	<title>AP</title>
 </head>
-<body background="http://drive.google.com/uc?export=view&id=1-nHJHut51NKG7ZHFOlsRS_TxVCkx-fkc">
-	<h1 id="header" style="border-bottom: solid black; padding: 10px;" align="center">Araling Panlipunan</h1>
-<center>
-<input type="text" id="inp">
-<br>
-<button onclick="pressed()">Click here</button>
-</center>
-
-<script language="JavaScript">
-	document.getElementById("header").style.color = prompt("Input font color for header","");
-function pressed(){
-var color =
-document.getElementById("inp").value;
-switch (color){
-case "red":
-document.getElementById("ez").style.color = "red";
-break;
-case "blue":
-document.getElementById("ez").style.color = "blue";
-break;
-case "gray":
-document.getElementById("ez").style.color = "gray";
-break;
-case "brown":
-document.getElementById("ez").style.color = "brown";
-break;
-case "green":
-document.getElementById("ez").style.color = "green";
-break;
-case "yellow":
-document.getElementById("ez").style.color = "yellow";
-break;
-default:
-document.getElementById("ez").style.color = "black";
-break;
-}
-}
-</script>
-<div id="ez">
-	<h3 align="center">1st GRADING Outputs</h3>
-	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
-	<img src="http://drive.google.com/uc?export=view&id=1F4LVkR_N1LavWTxBfwEFX3keF4jM0mJN">
-	<img src="http://drive.google.com/uc?export=view&id=1fWpj-c_4Ybb0npB0x1LYDrMwjub0mNoK">
-	<img src="http://drive.google.com/uc?export=view&id=11ZQRD-bAy2nBgG4OBUDcyyZ7hO7pbM9Q">
-    </div>
-    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
-    <p>Sa gawaing ito inilahad ko kung sino at bakit sa tingin ko ang may pinakamalaking kontribusyon sa Ekonomiya</p>
-    <p>Pagsagot ng mga katanungan tungkol sa demand</p>
-    <p>Repleksyon kung paano ibabadyet ang pera ng pamilya sa loob ng isang buwan</p>
-    </div>
-	<h3 align="center">2nd GRADING Outputs</h3>
-	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
-	<img src="http://drive.google.com/uc?export=view&id=19bpSDbkLvq9rHuq-CjsCb5GUcXTN_4tP">
-	<img src="http://drive.google.com/uc?export=view&id=1Qz6cGiA2cPGf6HpIPBgEn4yCG6HFYxCk">
-	<img src="http://drive.google.com/uc?export=view&id=1Xp_TMIRRjvdao3yqqFPHU_k7QshDGLvr">
-    </div>
-    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
-    <p>Sa gawaing ito inatasan akong alamin at ilagay kung kakulangan, kalabisan o ekwilibriyo ba ang mga nabanggit</p>
-    <p>Sa gawaing ito inatasan akong alamin at ilagay kung anong istruktura ng pamilihan ang mga nabanggit</p>
-    <p>Sa proyektong ito ang kontribusyon ko sa aking mga kagrupo ay ako ang nagsilbi bilang Key Performance Indicator</p>
-    </div>
-	<h3 align="center">3rd GRADING Outputs</h3>
-	<div align="center" style="width: 900px; height: 275px; margin: auto; display: flex; justify-content: space-between;">
-	<img src="http://drive.google.com/uc?export=view&id=1Ak_UvHNOJUOYyJbguE-ECqPbBP_80dkN">
-	<img src="http://drive.google.com/uc?export=view&id=1vy6eTcNs9UevbGepCJl7GdgLQAyACKDD">
-	<img src="http://drive.google.com/uc?export=view&id=1TsapJcus3HKitO_1VaAiQ9qpbkokkrTu">
-    </div>
-    <div align="center" style="width: 900px; margin: auto;display: flex; justify-content: space-between;">
-    <p>Pagtataya patungkol sa Implasyon.</p>
-    <p>Pagtataya patungkol sa GPD at GNI.</p>
-    <p>Pagtataya patungkol sa patakarang piskal.</p>
-    </div>
+<body>
+	<h1 id="header">Araling Panlipunan</h1>
+	<br>
+	<div>
+	<br>
+	<center>
+		<input type="text" id="inp">
+		<br>
+		<button onclick="pressed()">Click here</button>
+		</center>
+		
+		<script language="JavaScript">
+			document.getElementById("header").style.color = prompt("Input font color for header","");
+		function pressed(){
+		var color =
+		document.getElementById("inp").value;
+		switch (color){
+		case "red":
+		document.getElementById("ez").style.color = "red";
+		break;
+		case "blue":
+		document.getElementById("ez").style.color = "blue";
+		break;
+		case "gray":
+		document.getElementById("ez").style.color = "gray";
+		break;
+		case "brown":
+		document.getElementById("ez").style.color = "brown";
+		break;
+		case "green":
+		document.getElementById("ez").style.color = "green";
+		break;
+		case "yellow":
+		document.getElementById("ez").style.color = "yellow";
+		break;
+		default:
+		document.getElementById("ez").style.color = "black";
+		break;
+		}
+		}
+		</script>
+		<br>
+<div id="ez" class="container">
+	<h3>1st GRADING Outputs</h3>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1F4LVkR_N1LavWTxBfwEFX3keF4jM0mJN" width="275" height="275">
+		<br>
+		<p>Sa gawaing ito inilahad ko kung sino at bakit sa tingin ko ang may pinakamalaking kontribusyon sa Ekonomiya</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1fWpj-c_4Ybb0npB0x1LYDrMwjub0mNoK" width="275" height="275">
+		<br>
+		<p>Pagsagot ng mga katanungan tungkol sa demand</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=11ZQRD-bAy2nBgG4OBUDcyyZ7hO7pbM9Q" width="275" height="275">
+		<br>
+		<p>Repleksyon kung paano ibabadyet ang pera ng pamilya sa loob ng isang buwan</p>
+		<br>
+	</div>
+	<h3>2nd GRADING Outputs</h3>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=19bpSDbkLvq9rHuq-CjsCb5GUcXTN_4tP" width="275" height="275">
+		<br>
+		<p>Sa gawaing ito inatasan akong alamin at ilagay kung kakulangan, kalabisan o ekwilibriyo ba ang mga nabanggit</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1Qz6cGiA2cPGf6HpIPBgEn4yCG6HFYxCk" width="275" height="275">
+		<br>
+		<p>Sa gawaing ito inatasan akong alamin at ilagay kung anong istruktura ng pamilihan ang mga nabanggit</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1Xp_TMIRRjvdao3yqqFPHU_k7QshDGLvr" width="275" height="275">
+		<br>
+		<p>Sa proyektong ito ang kontribusyon ko sa aking mga kagrupo ay ako ang nagsilbi bilang Key Performance Indicator</p>
+		<br>
+	</div>
+	<h3>3rd GRADING Outputs</h3>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1Ak_UvHNOJUOYyJbguE-ECqPbBP_80dkN" width="275" height="275">
+		<br>
+		<p>Pagtataya patungkol sa Implasyon.</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1vy6eTcNs9UevbGepCJl7GdgLQAyACKDD" width="275" height="275">
+		<br>
+		<p>Pagtataya patungkol sa GPD at GNI.</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1TsapJcus3HKitO_1VaAiQ9qpbkokkrTu" width="275" height="275">
+		<p>Pagtataya patungkol sa patakarang piskal.</p>
+		<br>
+	</div>
+	<h3>4th GRADING Outputs</h3>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1norST6nqqbCRuBPIh2lAFStEgOt6-upI" width="275" height="275">
+		<br>
+		<p>Sektor ng paglilingkod.</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=11Kdju0l2Z4jlXgWwaMJQuNO20BT7EwpY" width="275" height="275">
+		<br>
+		<p>Karapatan ng manggagawa</p>
+		<br>
+	</div>
+	<div>
+		<img src="http://drive.google.com/uc?export=view&id=1QYMsWq_rMcML_csZLz7E8bJEeXwB3Zsc" width="275" height="275">
+		<p>Quiz</p>
+		<br>
+	</div>
+</div>
 </div>
 </body>
 </html>
